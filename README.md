@@ -1,46 +1,123 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# AI Image Gallery 🚀
 
-In the project directory, you can run:
+An AI-powered image gallery that generates images based on user prompts using OpenAI's DALL·E API. This project is built with **React** and **TypeScript** and includes features like:
 
-### `yarn start`
+- Dynamic image generation based on user input.
+- A gallery view for displaying multiple images.
+- Secure API key management using environment variables.
+- Unit tests with React Testing Library and Jest.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+- [Environment Variables](#environment-variables)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
+![App Demo Screenshot](https://via.placeholder.com/800x400?text=Demo+Placeholder)  
+*(Replace this with an actual screenshot or gif of your application.)*
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+- Enter prompts to generate AI images.
+- Displays a gallery of generated images.
+- Responsive design for a seamless user experience.
+- Environment variable support for secure API key storage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `yarn eject`
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (v16 or later)
+- **Yarn** (Package Manager)
+- An OpenAI API key. [Get your API key here](https://platform.openai.com/signup/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ai-image-gallery.git
+   cd ai-image-gallery
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
+   ```bash
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Add the required environment variables (see [Environment Variables](#environment-variables)).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## Running the App
+Start the development server:
+```bash
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visit the app in your browser at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## Environment Variables
+Create a `.env` file in the root of your project and add the following:
+```env
+REACT_APP_OPENAI_API_KEY=your_openai_api_key
+```
+
+**Note**: Replace `your_openai_api_key` with your actual OpenAI API key.
+
+Make sure `.env` is listed in your `.gitignore` file to prevent exposing your API key.
+
+---
+
+## Testing
+Run unit tests with:
+```bash
+yarn test
+```
+
+---
+
+## Technologies Used
+- **React**: Frontend library for building the user interface.
+- **TypeScript**: Adds type safety to the project.
+- **Axios**: For making API requests to OpenAI.
+- **React Testing Library**: For writing unit tests.
+- **Jest**: Testing framework.
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m "Add feature"`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
+
+---
+
+## Acknowledgments
+- [OpenAI DALL·E API](https://platform.openai.com/docs/guides/images) for image generation.
+- React and TypeScript communities for excellent documentation and tools.
