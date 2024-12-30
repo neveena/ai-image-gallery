@@ -13,7 +13,6 @@ An AI-powered image gallery that generates images based on user prompts using Op
 ---
 
 ## Table of Contents
-- [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -23,12 +22,6 @@ An AI-powered image gallery that generates images based on user prompts using Op
 - [Testing](#testing)
 - [Technologies Used](#technologies-used)
 - [License](#license)
-
----
-
-## Demo
-![App Demo Screenshot](https://via.placeholder.com/800x400?text=Demo+Placeholder)  
-*(Replace this with an actual screenshot or gif of your application.)*
 
 ---
 
